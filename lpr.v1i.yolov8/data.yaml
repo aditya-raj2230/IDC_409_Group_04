@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['plate']
+
+roboflow:
+  workspace: cv-detection
+  project: lpr-yaicp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cv-detection/lpr-yaicp/dataset/1
